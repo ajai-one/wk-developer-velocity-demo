@@ -1,5 +1,7 @@
 name: Build and Deploy node Express app to azure
 on:
+  workflow_dispatch:
+    
   push:
     branches:
       - master
